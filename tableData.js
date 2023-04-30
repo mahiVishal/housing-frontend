@@ -1,6 +1,6 @@
 const table = document.getElementById("table");
 
-fetch("http://http://pris.ly/e/ts/rest-express#3-using-the-rest-api/pg")
+fetch("http://localhost:3000/pg")
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
